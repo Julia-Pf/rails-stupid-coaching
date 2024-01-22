@@ -1,2 +1,9 @@
-<p><%=@input%></p>
-<p><%=@answer%></p>
+
+<div class="alert alert-light m-3" role="alert" m-3>
+  <p><%=@input%></p>
+</div>
+<div class="alert alert-warning m-3" role="alert" >
+  <p><%=@answer%></p>
+</div>
+
+<%= link_to "Ask a question", ask_path%>
